@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="39" height="39" viewBox="0 0 39 39">
+  <defs>
+    <clipPath id="clip-path">
+      <circle id="Elipse_162" data-name="Elipse 162" cx="19.5" cy="19.5" r="19.5" transform="translate(564 782.378)" fill="#36a9e1"/>
+    </clipPath>
+  </defs>
+  <g id="Enmascarar_grupo_367" data-name="Enmascarar grupo 367" transform="translate(-564 -782.378)" clip-path="url(#clip-path)">
+    <circle id="Elipse_155" data-name="Elipse 155" cx="19.5" cy="19.5" r="19.5" transform="translate(564 782.378)" fill="#36a9e1"/>
+    <text id="_-" data-name="-" transform="translate(578 810.378)" fill="#fff" font-size="30" font-family="CircularStd-Book, Circular Std"><tspan x="0" y="0">-</tspan></text>
+  </g>
+</svg>

@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Home from './pages/home/Home'
+import React from 'react'
 
 function App() {
+
+  const [isMobile, setIsMobile] = React.useState(window.innerWidth < 768);
+
+  
+  React.useEffect(() => {
+    function handleResize() {
+      setIsMobile(window.innerWidth < 768);
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Home isMobile={isMobile} />
     </div>
   );
 }
