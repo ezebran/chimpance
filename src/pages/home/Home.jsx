@@ -14,8 +14,11 @@ import Sectionthirteen from './section_13/Sectionthirteen'
 import SectionFourteen from './section_14/SectionFourteen'
 import SectionFifteen from './section_15/SectionFifteen'
 import SectionSixteen from './section_16/SectionSixteen'
+import SectionSeventeen from './section_17/SectionSeventeen'
 
 import Navbar from './../../layouts/Navbar'
+import Footer from './../../layouts/Footer'
+
 
 export default function Home({isMobile}){
     return(
@@ -37,6 +40,8 @@ export default function Home({isMobile}){
             <SectionFourteen />
             {!isMobile && <SectionFifteen />}
             <SectionSixteen />
+            <SectionSeventeen />
+            <Footer />
         </>
     )
 }
